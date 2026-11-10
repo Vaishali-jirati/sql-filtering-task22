@@ -6,7 +6,7 @@ sample database (a digital music store) in MySQL Workbench.
 
 ## Files
 - veda_queries2.sql: all 12 queries
-- output/: screenshot of each query result (query1.png to query12.png)
+- outputs/: screenshot of each query result (query1.png to query12.png)
 
 ## Setup
 - Database: Chinook (Chinook_MySql_AutoIncrementPKs.sql, version 1.4.5)
@@ -32,17 +32,17 @@ sample database (a digital music store) in MySQL Workbench.
 ## Sample outputs
 Query 1 (WHERE =)
 
-![Query 1](output/query1.png)
+![Query 1](outputs/query1.png)
 
 Query 8 (BETWEEN with dates)
 
-![Query 8](output/query8.png)
+![Query 8](outputs/query8.png)
 
 Query 11 (LIKE)
 
-![Query 11](output/query11.png)
+![Query 11](outputs/query11.png)
 
-The screenshots of all 12 queries are in the [output folder](output).
+The screenshots of all 12 queries are in the [outputs folder](outputs).
 
 ## What I learned
 - = looks for an exact match, while LIKE looks for a pattern (% means any text, _ means one character)
